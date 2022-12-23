@@ -7,7 +7,7 @@ function App() {
 
   return (
     <button onClick={() => setCount(count + 1)}>
-      i was changed to {count}
+      i was changed to the {count}
     </button>
   );
 }
