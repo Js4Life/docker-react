@@ -9,11 +9,11 @@ script:
 language: generic
 deploy: 
   provider: elasticbeanstalk
-  region: "us-east-1"
-  app: "docker-react"
-  env: "Dockerreact-env"
-  bucket_name: "elasticbeanstalk-us-east-1-665716692154"
-  bucket_path: "docker-react"
+  region: "ap-south-1"
+  app: "docker"
+  env: "docker-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-665716692154"
+  bucket_path: "docker"
   on:
     branch: master
   access_key_id: "$AWS_ACCESS_KEY"
@@ -21,3 +21,4 @@ deploy:
 
 
 
+# Docker-env.eba-mas8mmwr.ap-south-1.elasticbeanstalk.com
